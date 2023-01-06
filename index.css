@@ -14,7 +14,7 @@ body{
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: right;
-    height: 108.4vh;
+    height: 106vh;
 }
 
 header{
@@ -32,9 +32,11 @@ header{
 .navList li{
     padding: 20px;
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Poppins';
-    font-weight: 500;
+    font-weight: 400;
+    font-style: normal;
+
 }
 .navList li a{
     text-decoration: none;
@@ -61,25 +63,31 @@ header{
 }
 
 .text{
-    margin-top: 100px;
+    margin-top: 97px;
 }
 .bigText{
-    width: 80%;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 45px;
+    width: 90%;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 55px;
+    font-family: 'Inter';
+    font-style: normal;
+}
+.smallText h4{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    width: 85%;
+    padding-top: 10px;
+    color: #6B7280;
 }
 .fastest{
     color: #FF5A1F;
 }
 .light{
     color: #FF5A1F;
-}
-.smallText{
-    padding-top: 20px;
-    width: 75%;
-    line-height: 20px;
-    color: #6B7280;
 }
 .button{
     padding-top: 20px;
@@ -90,14 +98,20 @@ header{
     border-radius: 10px;
     background: linear-gradient(to right, #C11717, #FF8A4C);
     color: #FFF8F1;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
 }
 
 .picture>img{
-    width: 165%;
+    width: 200%;
   height: auto;
 }
 .picture{
-    margin-right: 21.9%;
+    margin-right: 28.5%;
 }
 
 .services{
@@ -113,11 +127,17 @@ header{
     padding-bottom: 15px;
     font-weight: 700;
     color: #161E2E;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-size: 30px;
 }
 .serviceHeading h4{
     font-weight: 400;
     color: #161E2E;
     line-height: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
 }
 .serviceBody{
     display: flex;
@@ -167,6 +187,9 @@ header{
     font-size: 16px;
     font-style: normal;
     line-height: 20px;
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: 27px;
 }
 
 .verifySection{
@@ -260,6 +283,7 @@ header{
     justify-content: space-between;
     border-radius: 14px;
     margin-top: 30px;
+    cursor: pointer;
 }
 .month{
     background-color: #FF5A1F;
@@ -325,6 +349,7 @@ header{
     color: #FFF8F1;
     margin-top: 20px;
     width: 100%;
+    cursor: pointer;
 }
 .basic{
     border: solid;
@@ -352,6 +377,14 @@ header{
     background-clip: text;
     font-family: 'inter';
     font-weight: 900;
+}
+.basic p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    color: #4B5563;
 }
 .pro{
     border: solid;
@@ -395,6 +428,14 @@ header{
     font-weight: bold;
     text-align: center;
 }
+.pro p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    color: #4B5563;
+}
 .premium{
     border: solid;
     border-color: #FCD9BD;
@@ -421,6 +462,21 @@ header{
     -webkit-background-clip: text;
     background-clip: text;
 }
+.premium p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    color: #4B5563;
+}
+.pricePack li{ 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
 .fast{
     padding-top: 18%;
     width: 80%;
