@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=DM+Sans&family=Inter&family=Poppins&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -14,7 +16,7 @@ body{
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: right;
-    height: 106.5vh;
+    height: 111.55vh;
 }
 
 header{
@@ -32,7 +34,7 @@ header{
 .navList li{
     padding: 20px;
     color: #FFFFFF;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Poppins';
     font-weight: 400;
     font-style: normal;
@@ -68,7 +70,7 @@ header{
 .bigText{
     width: 90%;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 55px;
     font-family: 'Inter';
     font-style: normal;
@@ -107,11 +109,11 @@ header{
 }
 
 .picture>img{
-    width: 200%;
+    width: 190%;
   height: auto;
 }
 .picture{
-    margin-right: 28.5%;
+    margin-right: 25.85%;
 }
 
 .services{
