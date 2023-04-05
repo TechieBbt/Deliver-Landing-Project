@@ -16,7 +16,7 @@ body{
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: right;
-    height: 111.55vh;
+    height: 806px;
 }
 
 header{
@@ -109,11 +109,12 @@ header{
 }
 
 .picture>img{
-    width: 190%;
-  height: auto;
+    width: 670px;
+    height: 676px;
 }
 .picture{
-    margin-right: 25.85%;
+    width: 57.4%;
+    margin: auto;
 }
 
 .services{
@@ -410,6 +411,8 @@ header{
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
+    font-family: 'inter';
+    font-weight: 900;
 }
 .pro h5{
     color: #FF5A1F;
@@ -449,6 +452,8 @@ header{
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
+    font-family: 'inter';
+    font-weight: 900;
 }
 .fast{
     padding-top: 18%;
@@ -532,7 +537,7 @@ header{
     justify-content: center;
     flex-direction: column;
     padding-bottom: 30px;
-}
+} 
 .boxOne{
     color: #444;
     cursor: pointer;
@@ -545,7 +550,6 @@ header{
     border-radius: 8px;
     outline: none;
     transition: 0.4s;
-    margin: auto;
     margin-bottom: 20px;
     padding-bottom: 20px;
 }
@@ -727,3 +731,752 @@ footer{
     font-size: 14px;
     line-height: 16px;
 }
+
+@media screen and (max-width: 1024px){
+    .firstContainer{
+        height: 726px;
+    }
+    .picture>img{
+        width: 550px;
+        height: 606px;
+    }
+    .picture{
+        width: 58.4%;
+        margin: auto;
+    }
+    .navList li{
+        padding: 15px 0px 15px 15px;
+        color: #FFFFFF;
+        font-size: 15px;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-style: normal;    
+    }
+    .navList ul{
+        margin-right: -10px;
+    }
+    .text{
+        margin-top: 87px;
+    }
+    .bigText{
+        width: 99.9%;
+        font-size: 18px;
+        line-height: 50px;
+        font-style: bold;
+    }
+    .smallText h4{
+        font-size: 15px;
+        line-height: 25px;
+        width: 97%;
+    }
+    .button button{
+        padding: 13px 20px;            
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .serviceHeading h4{
+        line-height: 20px;
+        font-size: 15px;
+    }
+    .serviceBody{
+        margin-top: 0px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .phoneImg{
+        margin-left: -10%;
+        margin-right: 30%;
+    }
+    .phoneImg>img{
+        width: 580%;
+        /* height: auto; */
+    }
+    .phoneSide{
+        margin-left: 11%;
+        margin-top: 10%;
+    }
+    .allSections{
+        float: left;
+        justify-content: space-between;
+    }
+    .allSections section{
+        width: 50%; 
+        float: left;
+        padding: 10px 20px 5px 15px;
+        height: 40vh;
+    }
+    .allSections section img{
+        float: left;
+        width: 25%;
+        margin-left: -10px;
+        margin-right: 10px;
+    }
+    .allSections section h3{
+        float: right;
+        width: 75%;
+        padding-bottom: 7px;
+        font-size: 17px;
+    }
+    .allSections section h4{
+        float: right;
+        width: 75%;
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .imageTop{
+        width: 80%;
+        margin: auto;
+    }
+    .basic{
+        width: 37%;
+        padding: 15px;
+        line-height: 20px;
+        height: 439px;
+    }
+    .pro{
+        width: 37%;
+        padding: 15px;
+        line-height: 20px;
+        height: 495px;
+    }
+    .pro h5{
+        font-size: 8px;
+    }
+    .premium{
+        width: 37%;
+        padding: 15px;
+        line-height: 20px;
+        height: 548px;
+    }
+    .pricePack{
+        width: 80%;
+        margin: auto;
+    }
+    .pricePack ul p{
+        margin-left: 25px;
+        width: 100%;
+        font-size: 11px;
+        padding-right: 5px;
+    }
+    .faqQuest{
+        font-size: 15px;
+        padding: 18px 18px;
+        width: 850px;
+        height: 60px;
+    }
+    .boxOne{        
+        padding: 20px 20px;
+        width: 850px;
+        height: 110px;
+        padding: 32px 15px;
+    }
+    .boxOne p{
+        font-size: 15px;
+    }
+    .faq{
+        width: 70%;
+        margin: auto;
+    }
+    .faq-container{
+        align-items: center;
+    }
+    .contactUs{
+        width: 50%;
+    }
+    .fastOne h2{
+        margin-left: 10%;
+        margin-top: 63%;
+        font-size: 20px;
+    }
+    .fastTwo h2{
+        margin-left: 10%;
+        margin-top: 63%;
+        font-size: 20px;
+    }
+    .fastThree h2{
+        margin-left: 10%;
+        margin-top: 63%;
+        font-size: 20px;
+    }
+    .fastOne{
+        width: 32%;
+        height: 228px;
+    }
+    .fastTwo{
+        width: 32%;
+        height: 228px;
+    }
+    .fastThree{
+        width: 32%;
+        height: 228px;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .navList{
+        display: none;
+    }
+    .hero{
+        width: 100%;
+        margin: auto;
+        margin-top: 5px;
+        flex-direction: column;
+    }
+    .firstContainer{
+        background: none;
+        background-position: relative;
+        height: 1082px;
+    }
+    .text{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 12px;
+        margin-top: 20px;
+    }
+    .bigText{
+        width: 80%;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 58px;
+    }
+    .smallText h4{
+        font-size: 21px;
+        line-height: 30px;
+        width: 80%;
+    }
+    .button{
+        padding-top: 20px;
+    }
+    .button button{
+        padding: 15px 45px 15px 45px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .picture>img{
+        width: 100%;
+    }
+    .picture{
+        width: 100%;
+        background-image: linear-gradient(#C11717, #FF8A4C);
+        background-size: cover;
+        background-position: absolute;
+        margin-top: 20px;
+        height: 606px;
+    }
+    .services{
+        padding-top: 4rem;
+    }
+    .serviceHeading h4{
+        line-height: 27px;
+        font-size: 17px;
+    }
+    .serviceHeading{
+        width: 50%;
+    }
+    .serviceBody{
+        flex-direction: column-reverse;
+    }
+    .phoneImg{
+        margin-left: 5%;
+        margin-right: 2%;
+    }
+    .phoneImg>img{
+        width: 80%;
+        height: auto;
+    }
+    .phoneSide{
+        margin-left: -2%;
+    }
+    .allSections{
+        justify-content: center;
+    }
+    .allSections section{
+        height: 35vh;
+    }
+    .imageTop{
+        flex-direction: column;
+        background: none;
+        width: 40%;
+        padding-bottom: 2rem;
+    }
+    .imageTop h3{
+        font-size: 22px;
+    }
+    .imageTop h4{
+        font-size: 18px;
+        width: 80%;
+        line-height: 21px;
+        margin: auto;
+    }
+    .price{
+        padding-top: 0px;
+    }
+    .priceHead{
+        padding-top: 40px;
+    }
+    .priceHead h1{
+        padding: 17px;
+    }
+    .priceHead h4{
+        line-height: 20px;
+        padding-bottom: 10px;
+        width: 45%; 
+        margin: auto;
+    }
+    .priceButton{
+        width: 35%;
+    }
+    .pricePack{
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        align-content: center;
+        margin-top: 10px;
+    }
+    .basic{
+        padding: 18px;
+        height: 473px;
+        line-height: 23px;
+        width: 60%;
+        align-items: center;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .basic h1{
+        font-size: 38px;
+    }
+    .basic h4{
+        font-size: 18px;
+    } 
+    .basic li{
+        font-size: 18px;
+    }   
+    .basic ul p{
+        font-size: 16px;
+    } 
+    .pro{
+        padding: 18px;
+        line-height: 23px;
+        height: 539px;
+        width: 60%;
+        margin: auto;
+        margin-top: 25px;
+    }
+    .pro h1{
+        font-size: 38px;
+    }
+    .pro h4{
+        font-size: 18px;
+    } 
+    .pro li{
+        font-size: 18px;
+    }   
+    .pro ul p{
+        font-size: 16px;
+    }    
+    .premium{
+        padding: 18px;
+        line-height: 23px;
+        height: 605px;
+        width: 60%;
+        margin: auto;
+        margin-top: 28px;
+    }
+    .premium h1{
+        font-size: 38px;
+    }
+    .premium h4{
+        font-size: 18px;
+    } 
+    .premium li{
+        font-size: 18px;
+    }   
+    .premium ul p{
+        font-size: 16px;
+    } 
+    .pricePack button{
+        font-size: 16px;
+        word-spacing: 2px;
+    }
+    .fast{
+        flex-direction: column;
+        margin-top: -15px;
+    }
+    .fastOne{
+        width: 60%;
+        height: 248px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .fastOne h2{
+        margin-top: 50%;
+    }
+    .fastTwo{
+        width: 60%;
+        height: 248px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .fastTwo h2{
+        margin-top: 50%;
+    }
+    .fastThree{
+        width: 60%;
+        height: 248px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .fastThree h2{
+        margin-top: 50%;
+    }
+    .boxOne{
+        padding: 35px 20px;
+        width: 600px;
+        height: 170px;
+    }
+    .faqQuest{
+        font-size: 15px;
+        padding: 20px 20px;
+        width: 600px;
+        height: 66px;
+    }
+    .contactHead h4{
+        width: 75%;
+        margin: auto;
+    }
+    .contactImg{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 50px;
+        text-align: center;
+        color: white;
+        padding-bottom: 50px;
+    }
+
+    .call{
+        width: 26%;
+        margin-top: -10px;
+    }
+    .mail{
+        margin-top: 5px;
+    }
+    .contactBox{
+        border: 1px solid #FFFFFF;
+        border-color: white;
+        border-radius: 16px;
+        background-color: #FFFFFF;
+        height: 400px;
+        align-items: center;
+        padding: 32px 48px;
+        box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.25);
+    }
+    .contactBox label{
+        color: #FB9F9D;
+        font-size: 16px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    footer .footlogo{
+        width: 30%;
+        margin: auto;
+    }
+    footer .navList{
+        display: inline-block;
+        justify-content: center;
+    }
+}
+
+    
+    @media screen and (max-width: 425px){
+        .firstContainer{
+            height: 1082px;
+        }
+        .text{
+            width: 90%;
+            margin: auto;
+            margin-bottom: 12px;
+            margin-top: 20px;
+        }
+        .bigText{
+            width: 95%;
+            font-size: 19px;
+            line-height: 58px;
+        }
+        .picture>img{
+            width: 100%;
+        }
+        .services{
+            padding-top: 6rem;
+            margin-bottom: -50px;
+        }
+        .serviceHeading{
+            width: 80%;
+        }
+        .phoneImg{
+            width: 100%;
+            margin: auto;
+            margin-top: 20px;
+        }
+        .phoneImg>img{
+            width: 100%;
+            margin-top: 20px;
+            margin-left: -2%;
+        }
+        .phoneSide{
+            margin-left: -2%;
+        }
+        .allSections{
+            justify-content: space-between;
+            display: flex;
+            flex-direction: column;
+        }
+        .allSections section{
+            height: 35vh;
+            float: none;
+            text-align: center;
+            width: 100%;
+            margin: auto;
+            margin-bottom: 100px;
+        }
+        .allSections section img{
+            float: none;
+            text-align: center;
+        }
+        .allSections section>img{
+            width: 35%;
+        }
+        .allSections section h3{
+            float: none;
+            width: 100%;
+            font-size: 20px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .allSections section h4{
+            float: none;
+            width: 100%;
+            font-size: 18px;
+            font-style: normal;
+            font-family: 'Inter';
+            font-weight: 400;
+            line-height: 27px;
+        }
+        .verifySection{
+            background: #FF5A1F;
+            width: 100%;
+            margin: auto;
+        }
+        .verifyHeading{
+            padding-top: 5%;
+            width: 90%;
+            margin: auto;
+        }
+        .verifyHeading h1{
+            padding-bottom: 15px;
+        }
+        .verifyHeading h4{
+            text-align: center;
+            width: 75%;
+            margin: auto;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 30px;
+        }
+        .imageTop{
+            flex-direction: column;
+            background: none;
+            width: 100%;
+            padding-bottom: 2rem;
+        }
+        .imageTop h3{
+            font-size: 22px;
+        }
+        .imageTop h4{
+            font-size: 18px;
+            width: 80%;
+            line-height: 25px;
+            margin: auto;
+        }
+        
+        .other>img{
+            width: 70%;
+        }
+        
+        .redpack>img{
+            width: 70%;
+        }
+        .parcel>img{
+            width: 70%;
+        }
+        .delivery>img{
+            width: 70%;
+        }
+        .imageTop{
+            flex-direction: column;
+            background: none;
+            width: 80%;
+            padding-bottom: 2rem;
+        }
+        .imageTop h3{
+            font-size: 23px;
+        }
+        .imageTop h4{
+            font-size: 19px;
+            width: 70%;
+            line-height: 21px;
+        }
+        .lady{
+            display: none;
+        }
+        .priceHead{
+            padding-top: 40px;
+        }
+        .priceHead h1{
+            padding: 17px;
+        }
+        .priceHead h4{
+            line-height: 20px;
+            padding-bottom: 10px;
+            width: 85%; 
+            font-size: 15px;
+            line-height: 27px;
+            margin: auto;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+        }
+        .priceButton{
+            width: 55%;
+        }
+        .pricePack{
+            flex-direction: column;
+            justify-content: center;
+            width: 80%;
+            align-content: center;
+            margin-top: 10px;
+        }
+        .basic{
+            width: 100%;
+        }
+        .pro{
+            width: 100%;
+        }
+        .premium{
+            width: 100%;
+        }
+        .pricePack button{
+            font-size: 16px;
+            word-spacing: 2px;
+        }
+        .reg h5{
+            font-size: 12px;
+        }
+        .fastOne{
+            width: 90%;
+        }
+        .fastOne h2{
+            margin-top: 60%;
+        }
+        .fastTwo{
+            width: 90%;
+        }
+        .fastTwo h2{
+            margin-top: 60%;
+        }
+        .fastThree{
+            width: 90%;
+        }
+        .fastThree h2{
+            margin-top: 60%;
+        }
+        .boxOne{
+            width: 370px;
+            height: 250px;
+        }
+        .boxOne p{
+            width: 80%;
+        }
+        .faqQuest{
+            width: 370px;
+            /* display: flex;
+            justify-content: space-between; */
+        }
+        .faqMore{
+            text-align: center;
+            padding-bottom: 20%;
+        }
+        .faqMore h2{
+            font-size: 24px;
+            font-weight: 700;
+            color: #161E2E;
+            padding-bottom: 10px;
+        }
+        .faqMore h4{
+            color: #374151;
+            font-size: 16px;
+            width: 100%;
+            margin: auto;
+            text-align: center;
+            line-height: 27px;
+        }
+        .contactHead h4{
+            width: 95%;
+            margin: auto;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 27px;
+        }
+        .contactImg{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-top: 50px;
+            text-align: center;
+        }
+        .call{
+            width: 56%;
+            margin: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .mail{
+            margin-top: 5px;
+        }
+        .contactBox{
+            border: 1px solid #FFFFFF;
+            border-color: white;
+            border-radius: 16px;
+            background-color: #FFFFFF;
+            width: 320px;
+            height: 432px;
+            align-items: center;
+            padding: 22px 10px;
+            margin-left: -45px;
+            box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.25);
+        }
+        .contactBox label{
+            color: #FB9F9D;
+            font-size: 16px;
+        }
+        footer{
+            display: flex;
+            flex-direction: column;
+        }
+        footer .footlogo{
+            width: 40%;
+            margin: auto;
+        }
+        footer .navList{
+            display: inline-block;
+            justify-content: center;
+        }
+        
+} 
