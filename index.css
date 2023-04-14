@@ -1478,5 +1478,52 @@ footer{
             display: inline-block;
             justify-content: center;
         }
-        
+}
+ @media screen and (max-width: 375px){
+    .button button{
+        font-size: 16px;
+    }
+    .picture>img{
+        width: 90%;
+        /* height: 600px; */
+    }
+    .firstContainer{
+        height: 1092px;
+    }
+    .services{
+        margin-top: 30px;
+    }
+    .other{
+        margin-bottom: 25px;
+    }
+    .redpack{
+        margin-bottom: 25px;
+    }
+    .parcel{
+        margin-bottom: 25px;
+    }
+    .delivery{
+        padding-bottom: 25px;
+    }
+    .contactBox{        
+        width: 320px;
+        height: 432px;
+        padding: 22px 10px;
+        margin-left: -67px;
+    }
+    footer .footlogo{
+        width: 55%;
+        margin: auto;
+    }
+    footer .footlogo>img{
+        width: 80%;
+    }
+    footer .navList{
+        display: inline-block;
+        justify-content: center;
+        margin-left: -30px;
+    }
+    footer .navList li{
+        font-size: 14px;
+    }
 } 
