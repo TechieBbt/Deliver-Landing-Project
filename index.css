@@ -731,6 +731,10 @@ footer{
     font-size: 14px;
     line-height: 16px;
 }
+#hamburger-icon {
+    display: none;
+  }
+
 
 @media screen and (max-width: 1024px){
     .firstContainer{
@@ -918,6 +922,74 @@ footer{
     .navList{
         display: none;
     }
+    #hamburger-icon {
+        margin: auto 0;
+        display: block;
+        cursor: pointer;
+      }
+      
+    #hamburger-icon div {
+        width: 35px;
+        height: 3px;
+        background: linear-gradient(#C11717, #FF8A4C);
+        margin: 6px 0;
+        transition: 0.4s;
+      }
+    
+    .open .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+        transform: rotate(-45deg) translate(-6px, 6px);
+      }
+      
+    .open .bar2 {
+        opacity: 0;
+      }
+      
+    .open .bar3 {
+        -webkit-transform: rotate(45deg) translate(-6px, -8px);
+        transform: rotate(45deg) translate(-6px, -8px);
+      }
+    .mobile-menu {
+        display: none;
+        position: absolute;
+        top: 65px;
+        right: 0;
+        height: calc(50vh - 50px);
+        width: 50%;
+        border-radius: 20px 0px 0px 20px;
+        background-image: linear-gradient(#C11717, #FF8A4C);
+      }
+    .mobile-menu li{
+        padding: 20px;
+        color: #FFFFFF;
+        font-size: 16px;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-style: normal;
+        list-style-type: none;
+    }
+    .mobile-menu li a{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    .mobile-menu .home a{
+        border-bottom: 3px solid #8A2C0D;
+        width: 80px;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        height: 10px;
+        position: relative;
+        font-size: 16px;
+        font-family: 'Poppins';
+        font-weight: 500;
+    }
+    .open .mobile-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+      }
+    
     .hero{
         width: 100%;
         margin: auto;
@@ -1240,7 +1312,7 @@ footer{
             text-align: center;
             width: 100%;
             margin: auto;
-            margin-bottom: 100px;
+            margin-bottom: 40px;
         }
         .allSections section img{
             float: none;
@@ -1404,8 +1476,6 @@ footer{
         }
         .faqQuest{
             width: 370px;
-            /* display: flex;
-            justify-content: space-between; */
         }
         .faqMore{
             text-align: center;
@@ -1484,7 +1554,7 @@ footer{
         font-size: 16px;
     }
     .picture>img{
-        width: 90%;
+        width: 100%;
         /* height: 600px; */
     }
     .firstContainer{
@@ -1527,3 +1597,120 @@ footer{
         font-size: 14px;
     }
 } 
+
+
+@media screen and (max-width: 320px){
+    .bigText{
+        width: 100%;
+        font-size: 19px;
+        line-height: 58px;
+    }
+    .button button{
+        font-size: 15px;
+        line-height: 20px;        
+        padding: 15px 32px 15px 32px;
+    }
+    .picture>img{
+        width: 100%;
+        height: 500px;
+    }
+    .picture{
+        height: 500px;
+    }
+    .services{
+        margin-top: 3px;
+        padding-top: 3.5rem;
+    }
+    .priceHead{
+        padding-top: 20px;
+    }
+    .priceHead h1{
+        padding: 10px;
+    }
+    .priceHead h4{
+        line-height: 25px;
+        padding-bottom: 10px;
+        width: 90%; 
+    }
+    .month{
+        margin-left: 3px;
+    }
+    .basic{
+        height: 527px;
+    }
+    .pro{
+        height: 625px;
+    }
+    .pro h5{
+        font-size: 10px;
+    }
+    .premium{
+        height: 725px;
+    }
+    .fastOne{
+        height: 228px;
+    }
+    .fastOne h2{
+        margin-top: 60%;
+    }
+    .fastTwo{
+        height: 228px;
+    }
+    .fastTwo h2{
+        margin-top: 60%;
+    }
+    .fastThree{
+        height: 228px;
+    }
+    .fastThree h2{
+        margin-top: 60%;
+    }
+    .boxOne{
+        width: 320px;
+    }
+    .boxOne p{
+        width: 80%;
+        font-size: 13px;
+    }
+    .boxOne h4{
+        font-size: 13px;
+    }
+    .boxOne h4:after {
+        margin-top: -1px;
+    }
+    .faqQuest{
+        width: 320px;
+        font-size: 13px;
+    }
+    .faqQuest:after {
+        margin-top: -5px;
+    }
+    .contactUs{
+        width: 90%;
+        margin: auto;
+    }
+    .contactHead h4{
+        width: 90%;
+        font-size: 14px;
+    }
+    .contactBox{        
+        width: 300px;
+        height: 432px;
+        padding: 22px 10px;
+        margin-left: -5px;
+    }
+    footer .navList li{
+        font-size: 10px;
+    }
+    footer .navList{
+        display: inline-block;
+        justify-content: center;
+        margin-left: -15px;
+    }
+    footer .navList{
+        width: 100%;
+    }
+    .phoneImg{
+        margin-top: -10px;
+    }
+}
